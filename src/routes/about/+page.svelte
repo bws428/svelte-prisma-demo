@@ -1,3 +1,7 @@
+<script>
+  import mountains from "$lib/assets/mountains.jpg";
+</script>
+
 <!-- Main -->
 <main class="container">
   <!-- Preview -->
@@ -132,10 +136,7 @@
 
     <!-- Medias-->
     <figure>
-      <img
-        src="img/aleksandar-jason-a562ZEFKW8I-unsplash-2000x1000.jpg"
-        alt="Minimal landscape"
-      />
+      <img alt="Minimal landscape" src={mountains} />
       <figcaption>
         Image from
         <a href="https://unsplash.com/photos/a562ZEFKW8I" target="_blank"
@@ -447,18 +448,6 @@
   <!-- ./ Loading -->
 </main>
 <!-- ./ Main -->
-
-<!-- Footer -->
-<footer class="container">
-  <small
-    >Built with <a href="https://picocss.com">Pico</a> •
-    <a
-      href="https://github.com/picocss/examples/blob/master/v1-preview/index.html"
-      >Source code</a
-    ></small
-  >
-</footer>
-<!-- ./ Footer -->
 
 <!-- Modal example -->
 <dialog id="modal-example">

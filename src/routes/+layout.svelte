@@ -20,3 +20,13 @@
 <div class="container">
   <slot />
 </div>
+
+<footer class="container">
+  <small
+    >Built with <a href="https://picocss.com">Pico</a> •
+    <a
+      href="https://github.com/picocss/examples/blob/master/v1-preview/index.html"
+      >Source code</a
+    ></small
+  >
+</footer>
